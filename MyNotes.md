@@ -24,4 +24,7 @@
 
 # Feature de filtre
 * Pas besoin d'ajouter une route, elle existe déja, simplement le filtre n'est pas fait
-* Il faut ajouter une lib de test
+* Je fais la feature avec un stream
+* Pour ajouter le count, je préfère utiliser un for classique, moins optimisé mais plus lisible
+
+* TODO : ajouter les tests
