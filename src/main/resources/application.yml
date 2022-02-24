@@ -1,5 +1,7 @@
 spring.jpa:
-  hibernate.ddl-auto: ""
+  hibernate:
+    url: jdbc:hsqldb:mem:testdb
+    ddl-auto: "update"
 spring:
   jpa:
     show-sql: true
