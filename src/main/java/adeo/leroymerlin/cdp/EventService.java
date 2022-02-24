@@ -56,7 +56,7 @@ public class EventService {
         return events;
     }
 
-    public void update(Event event) {
-        eventRepository.save(event);
+    public void updateEvent(Event event) {
+        eventRepository.updateEvent(event.getNbStars(), event.getComment(), event.getId());
     }
 }

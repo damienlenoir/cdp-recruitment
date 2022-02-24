@@ -27,4 +27,7 @@
 * Je fais la feature avec un stream
 * Pour ajouter le count, je préfère utiliser un for classique, moins optimisé mais plus lisible
 
-* TODO : ajouter les tests
+# Ajout des tests
+* Grace aux tests je me rend compte que j'ai une erreur 
+* En effet les deux eléments qui ont un "band" en commun ne sont pas supprimables ni modifiables
+* J'avais mis le cascade sur Band et sur Event, il ne fallait pas le mettre sur Event
